@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">About Me</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+
+        </ul>
+    </nav>
+    
+<br><br>
+
+<form action="/action_page.php">
+    
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required placeholder="Full name..."><br><br>
+    <label for="lname">Email address:</label><br>
+    <input type="text" id="email" name="email" required placeholder="abc@gmail.com"><br>
+    <label for="message"><br>Message:</label><br>
+    <input type="text" id="message" name="message"  placeholder="..." required><br>
+
+    
+    <label for="priority"><br>Priority:</label><br>
+        <select id="priority" name="priority" required>
+          <option value="Full-stack">Full-Stack developer</option>
+          <option value="frontend-engineer">Frontend-developer</option>
+          <option value="Backend-engineer">Backend-developer</option>
+          <option value="cloud-engineer">Cloud-developer</option>
+        </select>
+       <br><br> <input type="submit">
+
+
+  </form>
+
+
+</body>
+</html>
