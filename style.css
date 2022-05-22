@@ -1,7 +1,7 @@
    html {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     background-image: url('Website-Design-Background.webp');
@@ -39,9 +39,5 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(224, 153, 153);
-}
-
-.active {
-  background-color: #31db1b;
+  background-color: rgb(28, 235, 10);
 }
